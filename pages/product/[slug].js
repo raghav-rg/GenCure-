@@ -8,7 +8,7 @@ import Layout from '../../components/Layout';
 import Product from '../../models/Product';
 import db from '../../utils/db';
 import { Store } from '../../utils/Store';
-import { motion } from "framer-motion";
+
 
 
 export default function ProductScreen(props) {
