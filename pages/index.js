@@ -32,7 +32,7 @@ export default function Home({ products, featuredProducts }) {
 <Carousel showThumbs={false} autoPlay>
   {featuredProducts.slice(0, 2).map((product) => (
     <div key={product._id}>
-      <Link href='/' passHref className="flex">
+      <Link href={`/product/${product.slug}`} passHref className="flex">
         <img src={product.banner} alt={product.name} />
       </Link>
     </div>
